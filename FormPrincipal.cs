@@ -25,12 +25,26 @@ namespace Trabalho1Bim
 
         private void AfinarImagem(object sender, EventArgs e)
         {
+            Bitmap imageOriginal = new Bitmap(image);
 
+            Bitmap imageDest = new Bitmap(imageOriginal.Width, imageOriginal.Height);
+
+            Bitmap imageDest2 = new Bitmap(imageOriginal.Width, imageOriginal.Height);
+
+            Filtros filtros = new Filtros();
+
+            filtros.ConverterParaPretoBranco(imageOriginal, imageDest, 220);
+
+            ZhangSuen zhangSuen = new ZhangSuen();
+
+            zhangSuen.AfinarImagem(imageDest, imageDest2);
+
+            PictureBox2.Image = this.image = imageDest;
         }
 
         private void ExtracaoContornos(object sender, EventArgs e)
         {
-
+            
         }
 
         private void RetanguloMinimo(object sender, EventArgs e)

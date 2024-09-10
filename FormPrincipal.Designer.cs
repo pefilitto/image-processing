@@ -38,16 +38,16 @@
             PictureBox1.BackColor = SystemColors.ControlLightLight;
             PictureBox1.Location = new Point(12, 12);
             PictureBox1.Name = "PictureBox1";
-            PictureBox1.Size = new Size(600, 450);
+            PictureBox1.Size = new Size(850, 450);
             PictureBox1.TabIndex = 0;
             PictureBox1.TabStop = false;
             // 
             // PictureBox2
             // 
             PictureBox2.BackColor = SystemColors.ControlLightLight;
-            PictureBox2.Location = new Point(700, 12);
+            PictureBox2.Location = new Point(936, 12);
             PictureBox2.Name = "PictureBox2";
-            PictureBox2.Size = new Size(600, 450);
+            PictureBox2.Size = new Size(850, 450);
             PictureBox2.TabIndex = 1;
             PictureBox2.TabStop = false;
             // 
@@ -97,7 +97,7 @@
             // 
             // FormPrincipal
             // 
-            ClientSize = new Size(1312, 830);
+            ClientSize = new Size(1798, 830);
             Controls.Add(button4);
             Controls.Add(button3);
             Controls.Add(button2);

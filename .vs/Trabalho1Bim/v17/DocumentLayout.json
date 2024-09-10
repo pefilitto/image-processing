@@ -7,12 +7,20 @@
       "RelativeMoniker": "D:0:0:{5C3761E9-C326-40A1-B45C-7A7DB97F3122}|Trabalho1Bim.csproj|solutionrelative:formprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5C3761E9-C326-40A1-B45C-7A7DB97F3122}|Trabalho1Bim.csproj|c:\\users\\pedro filitto\\desktop\\6 termo\\topicos1\\trabalho1bim\\formprincipal.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5C3761E9-C326-40A1-B45C-7A7DB97F3122}|Trabalho1Bim.csproj|solutionrelative:formprincipal.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5C3761E9-C326-40A1-B45C-7A7DB97F3122}|Trabalho1Bim.csproj|c:\\users\\pedro filitto\\desktop\\6 termo\\topicos1\\trabalho1bim\\zhangsuen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C3761E9-C326-40A1-B45C-7A7DB97F3122}|Trabalho1Bim.csproj|solutionrelative:zhangsuen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5C3761E9-C326-40A1-B45C-7A7DB97F3122}|Trabalho1Bim.csproj|c:\\users\\pedro filitto\\desktop\\6 termo\\topicos1\\trabalho1bim\\formprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{5C3761E9-C326-40A1-B45C-7A7DB97F3122}|Trabalho1Bim.csproj|c:\\users\\pedro filitto\\desktop\\6 termo\\topicos1\\trabalho1bim\\contornos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C3761E9-C326-40A1-B45C-7A7DB97F3122}|Trabalho1Bim.csproj|solutionrelative:contornos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C3761E9-C326-40A1-B45C-7A7DB97F3122}|Trabalho1Bim.csproj|C:\\Users\\Pedro Filitto\\Desktop\\6 Termo\\TOPICOS1\\Trabalho1Bim\\formprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{5C3761E9-C326-40A1-B45C-7A7DB97F3122}|Trabalho1Bim.csproj|solutionrelative:formprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C3761E9-C326-40A1-B45C-7A7DB97F3122}|Trabalho1Bim.csproj|c:\\users\\pedro filitto\\desktop\\6 termo\\topicos1\\trabalho1bim\\formprincipal.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C3761E9-C326-40A1-B45C-7A7DB97F3122}|Trabalho1Bim.csproj|solutionrelative:formprincipal.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,11 +30,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "Contornos.cs",
+              "DocumentMoniker": "C:\\Users\\Pedro Filitto\\Desktop\\6 Termo\\TOPICOS1\\Trabalho1Bim\\Contornos.cs",
+              "RelativeDocumentMoniker": "Contornos.cs",
+              "ToolTip": "C:\\Users\\Pedro Filitto\\Desktop\\6 Termo\\TOPICOS1\\Trabalho1Bim\\Contornos.cs",
+              "RelativeToolTip": "Contornos.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-10T19:15:07.532Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ZhangSuen.cs",
+              "DocumentMoniker": "C:\\Users\\Pedro Filitto\\Desktop\\6 Termo\\TOPICOS1\\Trabalho1Bim\\ZhangSuen.cs",
+              "RelativeDocumentMoniker": "ZhangSuen.cs",
+              "ToolTip": "C:\\Users\\Pedro Filitto\\Desktop\\6 Termo\\TOPICOS1\\Trabalho1Bim\\ZhangSuen.cs",
+              "RelativeToolTip": "ZhangSuen.cs",
+              "ViewState": "AgIAAIMAAAAAAAAAAAAwwI8AAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-09T18:14:15.737Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "FormPrincipal.cs [Projeto]",
               "DocumentMoniker": "C:\\Users\\Pedro Filitto\\Desktop\\6 Termo\\TOPICOS1\\Trabalho1Bim\\FormPrincipal.cs",
               "RelativeDocumentMoniker": "FormPrincipal.cs",
@@ -38,13 +72,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "FormPrincipal.Designer.cs",
               "DocumentMoniker": "C:\\Users\\Pedro Filitto\\Desktop\\6 Termo\\TOPICOS1\\Trabalho1Bim\\FormPrincipal.Designer.cs",
               "RelativeDocumentMoniker": "FormPrincipal.Designer.cs",
               "ToolTip": "C:\\Users\\Pedro Filitto\\Desktop\\6 Termo\\TOPICOS1\\Trabalho1Bim\\FormPrincipal.Designer.cs",
               "RelativeToolTip": "FormPrincipal.Designer.cs",
-              "ViewState": "AgIAACEAAAAAAAAAAAAowE4AAAAPAAAAAAAAAA==",
+              "ViewState": "AgIAAA0AAAAAAAAAAAA1wA4AAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-08T00:13:24.092Z",
               "EditorCaption": ""
@@ -57,7 +91,7 @@
               "RelativeDocumentMoniker": "FormPrincipal.cs",
               "ToolTip": "C:\\Users\\Pedro Filitto\\Desktop\\6 Termo\\TOPICOS1\\Trabalho1Bim\\FormPrincipal.cs",
               "RelativeToolTip": "FormPrincipal.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAUwBEAAAA7AAAAAAAAAA==",
+              "ViewState": "AgIAABUAAAAAAAAAAAAUwC4AAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-08T00:13:06.574Z",
               "EditorCaption": ""

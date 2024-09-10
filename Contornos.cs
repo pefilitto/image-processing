@@ -8,6 +8,9 @@ namespace Trabalho1Bim
 {
     internal class Contornos
     {
+        public void ExtracaoContornos(Bitmap imageOriginal, Bitmap imageDest)
+        {
 
+        }
     }
 }
