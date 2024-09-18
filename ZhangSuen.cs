@@ -6,6 +6,7 @@ namespace Trabalho1Bim
 {
     internal class ZhangSuen
     {
+        public Utils utils = new Utils();
         public void AfinarImagem(Bitmap imageOriginal, Bitmap imageDest)
         {
             List<(int x, int y)> coordenadasPixels = new List<(int x, int y)>();
@@ -21,7 +22,7 @@ namespace Trabalho1Bim
                     {
                         Color pixel = imageOriginal.GetPixel(x, y);
 
-                        if (Preto(pixel))
+                        if (utils.Preto(pixel))
                         {
                             if (Conectividade1(imageOriginal, x, y))
                             {
@@ -58,7 +59,7 @@ namespace Trabalho1Bim
                     {
                         Color pixel = imageOriginal.GetPixel(x, y);
 
-                        if (Preto(pixel))
+                        if (utils.Preto(pixel))
                         {
                             if (Conectividade1(imageOriginal, x, y))
                             {
@@ -99,13 +100,13 @@ namespace Trabalho1Bim
 
             for (int i = 0; i < vizinhos.Length - 1; i++)
             {
-                if (Branco(vizinhos[i]) && Preto(vizinhos[i + 1]))
+                if (utils.Branco(vizinhos[i]) && utils.Preto(vizinhos[i + 1]))
                 {
                     transicoes++;
                 }
             }
 
-            if (Branco(vizinhos[vizinhos.Length - 1]) && Preto(vizinhos[0]))
+            if (utils.Branco(vizinhos[vizinhos.Length - 1]) && utils.Preto(vizinhos[0]))
             {
                 transicoes++;
             }
@@ -120,7 +121,7 @@ namespace Trabalho1Bim
             {
                 for (int j = x - 1; j <= x + 1; j++)
                 {
-                    if (!(i == y && j == x) && Preto(image.GetPixel(j, i)))
+                    if (!(i == y && j == x) && utils.Preto(image.GetPixel(j, i)))
                     {
                         contadorPretos++;
                     }
@@ -148,11 +149,11 @@ namespace Trabalho1Bim
         {
             if (PrimeiraSubIteracao)
             {
-                return Branco(image.GetPixel(x, y + 1)) || Branco(image.GetPixel(x - 1, y)) || Branco(image.GetPixel(x, y - 1));
+                return utils.Branco(image.GetPixel(x, y + 1)) || utils.Branco(image.GetPixel(x - 1, y)) || utils.Branco(image.GetPixel(x, y - 1));
             }
             else
             {
-                return Branco(image.GetPixel(x - 1, y)) || Branco(image.GetPixel(x, y + 1)) || Branco(image.GetPixel(x + 1, y));
+                return utils.Branco(image.GetPixel(x - 1, y)) || utils.Branco(image.GetPixel(x, y + 1)) || utils.Branco(image.GetPixel(x + 1, y));
             }
         }
 
@@ -160,22 +161,12 @@ namespace Trabalho1Bim
         {
             if (PrimeiraSubIteracao)
             {
-                return Branco(image.GetPixel(x - 1, y)) || Branco(image.GetPixel(x + 1, y)) || Branco(image.GetPixel(x, y - 1));
+                return utils.Branco(image.GetPixel(x - 1, y)) || utils.Branco(image.GetPixel(x + 1, y)) || utils.Branco(image.GetPixel(x, y - 1));
             }
             else
             {
-                return Branco(image.GetPixel(x, y + 1)) || Branco(image.GetPixel(x + 1, y)) || Branco(image.GetPixel(x, y - 1));
+                return utils.Branco(image.GetPixel(x, y + 1)) || utils.Branco(image.GetPixel(x + 1, y)) || utils.Branco(image.GetPixel(x, y - 1));
             }
-        }
-
-        private bool Branco(Color cor)
-        {
-            return cor.R == 255 && cor.G == 255 && cor.B == 255;
-        }
-
-        private bool Preto(Color cor)
-        {
-            return cor.R == 0 && cor.G == 0 && cor.B == 0;
         }
     }
 }

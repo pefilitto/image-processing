@@ -1,3 +1,4 @@
+using System.Drawing.Imaging;
 using System.Windows.Forms;
 
 namespace Trabalho1Bim
@@ -33,23 +34,43 @@ namespace Trabalho1Bim
 
             Filtros filtros = new Filtros();
 
-            filtros.ConverterParaPretoBranco(imageOriginal, imageDest, 220);
+            filtros.ConverterParaPretoBranco(imageOriginal, imageDest, 221);
 
             ZhangSuen zhangSuen = new ZhangSuen();
 
             zhangSuen.AfinarImagem(imageDest, imageDest2);
 
-            PictureBox2.Image = this.image = imageDest;
+            PictureBox2.Image = imageDest;
+
+            imageDest.Save("C:\\Users\\Pedro Filitto\\Desktop\\6 Termo\\TOPICOS1\\Trabalho1Bim\\resultados\\ImagemZhangSuen.png", ImageFormat.Png);
         }
 
         private void ExtracaoContornos(object sender, EventArgs e)
         {
-            
+            Bitmap imageOriginal = new Bitmap(this.image);
+
+            Bitmap imageDest = new Bitmap(imageOriginal.Width, imageOriginal.Height);
+
+            Bitmap imageDest2 = new Bitmap(imageOriginal.Width, imageOriginal.Height);
+
+            using (Graphics g = Graphics.FromImage(imageDest2))
+            {
+                g.Clear(Color.White);
+            }
+
+            Contornos contornos = new Contornos();
+            Filtros filtros = new Filtros();
+
+            filtros.ConverterParaPretoBranco(imageOriginal, imageDest, 221);
+
+            contornos.ExtracaoContornos(imageDest, imageDest2);
+
+            PictureBox2.Image = imageDest;
+
+            imageDest2.Save("C:\\Users\\Pedro Filitto\\Desktop\\6 Termo\\TOPICOS1\\Trabalho1Bim\\resultados\\ImagemContornos.png", ImageFormat.Png);
+
+            imageDest.Save("C:\\Users\\Pedro Filitto\\Desktop\\6 Termo\\TOPICOS1\\Trabalho1Bim\\resultados\\RetanguloMinimo.png", ImageFormat.Png);
         }
 
-        private void RetanguloMinimo(object sender, EventArgs e)
-        {
-
-        }
     }
 }

@@ -3,24 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\Pedro Filitto\\Desktop\\6 Termo\\TOPICOS1\\Trabalho1Bim\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5C3761E9-C326-40A1-B45C-7A7DB97F3122}|Trabalho1Bim.csproj|c:\\users\\pedro filitto\\desktop\\6 termo\\topicos1\\trabalho1bim\\formprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5C3761E9-C326-40A1-B45C-7A7DB97F3122}|Trabalho1Bim.csproj|solutionrelative:formprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5C3761E9-C326-40A1-B45C-7A7DB97F3122}|Trabalho1Bim.csproj|c:\\users\\pedro filitto\\desktop\\6 termo\\topicos1\\trabalho1bim\\retangulominimo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C3761E9-C326-40A1-B45C-7A7DB97F3122}|Trabalho1Bim.csproj|solutionrelative:retangulominimo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C3761E9-C326-40A1-B45C-7A7DB97F3122}|Trabalho1Bim.csproj|c:\\users\\pedro filitto\\desktop\\6 termo\\topicos1\\trabalho1bim\\formprincipal.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C3761E9-C326-40A1-B45C-7A7DB97F3122}|Trabalho1Bim.csproj|solutionrelative:formprincipal.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5C3761E9-C326-40A1-B45C-7A7DB97F3122}|Trabalho1Bim.csproj|c:\\users\\pedro filitto\\desktop\\6 termo\\topicos1\\trabalho1bim\\zhangsuen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5C3761E9-C326-40A1-B45C-7A7DB97F3122}|Trabalho1Bim.csproj|solutionrelative:zhangsuen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5C3761E9-C326-40A1-B45C-7A7DB97F3122}|Trabalho1Bim.csproj|c:\\users\\pedro filitto\\desktop\\6 termo\\topicos1\\trabalho1bim\\contornos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5C3761E9-C326-40A1-B45C-7A7DB97F3122}|Trabalho1Bim.csproj|solutionrelative:contornos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{5C3761E9-C326-40A1-B45C-7A7DB97F3122}|Trabalho1Bim.csproj|C:\\Users\\Pedro Filitto\\Desktop\\6 Termo\\TOPICOS1\\Trabalho1Bim\\formprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{5C3761E9-C326-40A1-B45C-7A7DB97F3122}|Trabalho1Bim.csproj|solutionrelative:formprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5C3761E9-C326-40A1-B45C-7A7DB97F3122}|Trabalho1Bim.csproj|c:\\users\\pedro filitto\\desktop\\6 termo\\topicos1\\trabalho1bim\\formprincipal.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5C3761E9-C326-40A1-B45C-7A7DB97F3122}|Trabalho1Bim.csproj|solutionrelative:formprincipal.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5C3761E9-C326-40A1-B45C-7A7DB97F3122}|Trabalho1Bim.csproj|c:\\users\\pedro filitto\\desktop\\6 termo\\topicos1\\trabalho1bim\\contornos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C3761E9-C326-40A1-B45C-7A7DB97F3122}|Trabalho1Bim.csproj|solutionrelative:contornos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C3761E9-C326-40A1-B45C-7A7DB97F3122}|Trabalho1Bim.csproj|c:\\users\\pedro filitto\\desktop\\6 termo\\topicos1\\trabalho1bim\\utils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C3761E9-C326-40A1-B45C-7A7DB97F3122}|Trabalho1Bim.csproj|solutionrelative:utils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C3761E9-C326-40A1-B45C-7A7DB97F3122}|Trabalho1Bim.csproj|c:\\users\\pedro filitto\\desktop\\6 termo\\topicos1\\trabalho1bim\\formprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C3761E9-C326-40A1-B45C-7A7DB97F3122}|Trabalho1Bim.csproj|solutionrelative:formprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,30 +38,69 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
+              "Title": "FormPrincipal.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Pedro Filitto\\Desktop\\6 Termo\\TOPICOS1\\Trabalho1Bim\\FormPrincipal.Designer.cs",
+              "RelativeDocumentMoniker": "FormPrincipal.Designer.cs",
+              "ToolTip": "C:\\Users\\Pedro Filitto\\Desktop\\6 Termo\\TOPICOS1\\Trabalho1Bim\\FormPrincipal.Designer.cs",
+              "RelativeToolTip": "FormPrincipal.Designer.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAxwFYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-18T23:01:56.43Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RetanguloMinimo.cs",
+              "DocumentMoniker": "C:\\Users\\Pedro Filitto\\Desktop\\6 Termo\\TOPICOS1\\Trabalho1Bim\\RetanguloMinimo.cs",
+              "RelativeDocumentMoniker": "RetanguloMinimo.cs",
+              "ToolTip": "C:\\Users\\Pedro Filitto\\Desktop\\6 Termo\\TOPICOS1\\Trabalho1Bim\\RetanguloMinimo.cs",
+              "RelativeToolTip": "RetanguloMinimo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-18T22:04:39.306Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Utils.cs",
+              "DocumentMoniker": "C:\\Users\\Pedro Filitto\\Desktop\\6 Termo\\TOPICOS1\\Trabalho1Bim\\Utils.cs",
+              "RelativeDocumentMoniker": "Utils.cs",
+              "ToolTip": "C:\\Users\\Pedro Filitto\\Desktop\\6 Termo\\TOPICOS1\\Trabalho1Bim\\Utils.cs",
+              "RelativeToolTip": "Utils.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-17T12:28:31.108Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Contornos.cs",
               "DocumentMoniker": "C:\\Users\\Pedro Filitto\\Desktop\\6 Termo\\TOPICOS1\\Trabalho1Bim\\Contornos.cs",
               "RelativeDocumentMoniker": "Contornos.cs",
               "ToolTip": "C:\\Users\\Pedro Filitto\\Desktop\\6 Termo\\TOPICOS1\\Trabalho1Bim\\Contornos.cs",
               "RelativeToolTip": "Contornos.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAgwBYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-10T19:15:07.532Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "ZhangSuen.cs",
               "DocumentMoniker": "C:\\Users\\Pedro Filitto\\Desktop\\6 Termo\\TOPICOS1\\Trabalho1Bim\\ZhangSuen.cs",
               "RelativeDocumentMoniker": "ZhangSuen.cs",
               "ToolTip": "C:\\Users\\Pedro Filitto\\Desktop\\6 Termo\\TOPICOS1\\Trabalho1Bim\\ZhangSuen.cs",
               "RelativeToolTip": "ZhangSuen.cs",
-              "ViewState": "AgIAAIMAAAAAAAAAAAAwwI8AAAAOAAAAAAAAAA==",
+              "ViewState": "AgIAAGAAAAAAAAAAAAAswKgAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-09T18:14:15.737Z",
               "EditorCaption": ""
@@ -72,26 +119,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "FormPrincipal.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\Pedro Filitto\\Desktop\\6 Termo\\TOPICOS1\\Trabalho1Bim\\FormPrincipal.Designer.cs",
-              "RelativeDocumentMoniker": "FormPrincipal.Designer.cs",
-              "ToolTip": "C:\\Users\\Pedro Filitto\\Desktop\\6 Termo\\TOPICOS1\\Trabalho1Bim\\FormPrincipal.Designer.cs",
-              "RelativeToolTip": "FormPrincipal.Designer.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAA1wA4AAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-08T00:13:24.092Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 6,
               "Title": "FormPrincipal.cs",
               "DocumentMoniker": "C:\\Users\\Pedro Filitto\\Desktop\\6 Termo\\TOPICOS1\\Trabalho1Bim\\FormPrincipal.cs",
               "RelativeDocumentMoniker": "FormPrincipal.cs",
               "ToolTip": "C:\\Users\\Pedro Filitto\\Desktop\\6 Termo\\TOPICOS1\\Trabalho1Bim\\FormPrincipal.cs",
               "RelativeToolTip": "FormPrincipal.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAUwC4AAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAABoAAAAAAAAAAAA9wEQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-08T00:13:06.574Z",
               "EditorCaption": ""

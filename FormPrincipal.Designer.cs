@@ -28,7 +28,6 @@
             openFileDialog = new OpenFileDialog();
             button2 = new Button();
             button3 = new Button();
-            button4 = new Button();
             ((System.ComponentModel.ISupportInitialize)PictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)PictureBox2).BeginInit();
             SuspendLayout();
@@ -38,22 +37,22 @@
             PictureBox1.BackColor = SystemColors.ControlLightLight;
             PictureBox1.Location = new Point(12, 12);
             PictureBox1.Name = "PictureBox1";
-            PictureBox1.Size = new Size(850, 450);
+            PictureBox1.Size = new Size(836, 450);
             PictureBox1.TabIndex = 0;
             PictureBox1.TabStop = false;
             // 
             // PictureBox2
             // 
             PictureBox2.BackColor = SystemColors.ControlLightLight;
-            PictureBox2.Location = new Point(936, 12);
+            PictureBox2.Location = new Point(854, 12);
             PictureBox2.Name = "PictureBox2";
-            PictureBox2.Size = new Size(850, 450);
+            PictureBox2.Size = new Size(932, 450);
             PictureBox2.TabIndex = 1;
             PictureBox2.TabStop = false;
             // 
             // button1
             // 
-            button1.Location = new Point(12, 468);
+            button1.Location = new Point(11, 479);
             button1.Name = "button1";
             button1.Size = new Size(107, 23);
             button1.TabIndex = 2;
@@ -67,7 +66,7 @@
             // 
             // button2
             // 
-            button2.Location = new Point(125, 468);
+            button2.Location = new Point(124, 479);
             button2.Name = "button2";
             button2.Size = new Size(107, 23);
             button2.TabIndex = 3;
@@ -77,28 +76,17 @@
             // 
             // button3
             // 
-            button3.Location = new Point(238, 468);
+            button3.Location = new Point(237, 479);
             button3.Name = "button3";
-            button3.Size = new Size(161, 23);
+            button3.Size = new Size(296, 23);
             button3.TabIndex = 4;
-            button3.Text = "Extração de Contornos";
+            button3.Text = "Extração de Contornos e Retangulo Minimo";
             button3.UseVisualStyleBackColor = true;
             button3.Click += ExtracaoContornos;
             // 
-            // button4
-            // 
-            button4.Location = new Point(405, 468);
-            button4.Name = "button4";
-            button4.Size = new Size(137, 23);
-            button4.TabIndex = 5;
-            button4.Text = "Retangulo Mínimo";
-            button4.UseVisualStyleBackColor = true;
-            button4.Click += RetanguloMinimo;
-            // 
             // FormPrincipal
             // 
-            ClientSize = new Size(1798, 830);
-            Controls.Add(button4);
+            ClientSize = new Size(1798, 795);
             Controls.Add(button3);
             Controls.Add(button2);
             Controls.Add(button1);
@@ -116,6 +104,5 @@
         private OpenFileDialog openFileDialog;
         private Button button2;
         private Button button3;
-        private Button button4;
     }
 }
